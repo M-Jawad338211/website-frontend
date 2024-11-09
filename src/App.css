@@ -1,0 +1,9 @@
+
+.hover-gradient {
+  background-color: #f5f5f5; /* Default gray background */
+  transition: background 0.3s ease;
+}
+
+.hover-gradient:hover {
+  background: linear-gradient(180deg, #9F3F3F 0%, #0A3253 100%);
+}
