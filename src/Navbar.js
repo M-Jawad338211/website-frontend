@@ -1,5 +1,6 @@
 import React from 'react';
 import SearchIcon from '@mui/icons-material/Search';
+import { Link } from 'react-router-dom';
 function Navbar() {
     
     
@@ -16,7 +17,7 @@ function Navbar() {
             <a href="/page" className="text-black  hover:text-orange-800">Page</a>
           </li>
           <li>
-            <a href="/serices" className="text-black  hover:text-orange-800">Services</a>
+           <Link to="/services" className=" text-black hover:text-orange-800">Services</Link>
           </li>
           <li>
             <a href="/portfolio" className="text-black  hover:text-orange-800">Portfolio</a>
