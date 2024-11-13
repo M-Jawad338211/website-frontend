@@ -6,7 +6,7 @@ function Navbar() {
     
     return (
       <nav className='pt-5'>
-        <ul className="flex space-x-6 justify-center">
+        <ul className="flex space-x-12 justify-center">
           <li>
             <img  src="/logoicon.png" alt="unitfactor-logo" className="h-12 pb-4 pr-16"/>
           </li>  
@@ -26,7 +26,7 @@ function Navbar() {
             <a href="/blog" className="text-black  hover:text-orange-800">Blog</a>
           </li>
           <li>
-            <a href="/contacts" className="text-black  hover:text-orange-800">Contacts</a>
+          <Link to="/contacts" className=" text-black hover:text-orange-800">Contacts</Link>
           </li>
           <li className="flex items-center space-x-2"> 
           <SearchIcon className="text-gray-500 ml-10 mb-3" />

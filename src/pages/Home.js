@@ -153,13 +153,13 @@ function Home(){
 
 
             <div className='flex flex-col justify-between items-center mt-16'>
-            <p className='text-red-800 font-semibold text-xs' style={{ fontSize: '1rem' }}>Choose Your Plan </p>
+                <p className='text-red-800 font-semibold text-xs' style={{ fontSize: '1rem' }}>Choose Your Plan </p>
 
-            <p className='font-extrabold text-2xl mt-3 ' style={{ fontSize: '2.4rem' }}>
-            Flexible <span className='text-red-900'>Pricing Plans</span>
-            </p>
-            <p className='text-sm mt-2 text-gray-400'>We have experience working with large and small businesses and are ready to </p>
-            <p className='text-sm  text-gray-400 '> develop a targeted strategy and plan that’s just right for you.</p>
+                <p className='font-extrabold text-2xl mt-3 ' style={{ fontSize: '2.4rem' }}>
+                Flexible <span className='text-red-900'>Pricing Plans</span>
+                </p>
+                <p className='text-sm mt-2 text-gray-400'>We have experience working with large and small businesses and are ready to </p>
+                <p className='text-sm  text-gray-400 '> develop a targeted strategy and plan that’s just right for you.</p>
             </div>
             <div className=" mt-8  ml-32 mr-32">
             <div className="flex justify-between gap-4">
