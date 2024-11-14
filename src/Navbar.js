@@ -1,5 +1,5 @@
 import React from 'react';
-import SearchIcon from '@mui/icons-material/Search';
+
 import { Link } from 'react-router-dom';
 function Navbar() {
     
@@ -20,21 +20,15 @@ function Navbar() {
            <Link to="/services" className=" text-black hover:text-orange-800">Services</Link>
           </li>
           <li>
-            <a href="/portfolio" className="text-black  hover:text-orange-800">Portfolio</a>
+           <Link to="/portfolio" className=" text-black hover:text-orange-800">Portfolio</Link>
           </li>
           <li>
             <a href="/blog" className="text-black  hover:text-orange-800">Blog</a>
           </li>
           <li>
-          <Link to="/contacts" className=" text-black hover:text-orange-800">Contacts</Link>
+           <Link to="/contacts" className=" text-black hover:text-orange-800">Contacts</Link>
           </li>
-          <li className="flex items-center space-x-2"> 
-          <SearchIcon className="text-gray-500 ml-10 mb-3" />
-           
-            <button className='bg-blue-950 text-white rounded-3xl h-9 w-24 text-sm mb-4'>
-                Contact Us
-            </button>
-          </li>  
+          
         </ul>
       </nav>
     );

@@ -23,12 +23,12 @@ function Home(){
             </div>
 
             <div className="flex flex-wrap justify-center gap-4 px-4 md:px-0 mt-8">
-            <div className=" group hover-gradient bg-gray-100 p-4 h-auto w-full sm:w-48 rounded-md flex items-start transform transition duration-300 hover:shadow-lg hover:scale-y-105 origin-top">
-            <img className="h-8 mr-2" src="/Group37.png" alt="Group37" />
-            <div className="flex flex-col">
-                <h1 className="text-sm font-extrabold group-hover:text-white" style={{ fontSize: '0.5rem' }}>Social Media Marketing</h1>
-                <p className="text-xs font-bold mt-1 text-gray-600 group-hover:text-white" style={{ fontSize: '0.4rem' }}>Create and manage top-performing social campaigns and start.</p>
-            </div>
+                <div className=" group hover-gradient bg-gray-100 p-4 h-auto w-full sm:w-48 rounded-md flex items-start transform transition duration-300 hover:shadow-lg hover:scale-y-105 origin-top">
+                <img className="h-8 mr-2" src="/Group37.png" alt="Group37" />
+                <div className="flex flex-col">
+                    <h1 className="text-sm font-extrabold group-hover:text-white" style={{ fontSize: '0.5rem' }}>Social Media Marketing</h1>
+                    <p className="text-xs font-bold mt-1 text-gray-600 group-hover:text-white" style={{ fontSize: '0.4rem' }}>Create and manage top-performing social campaigns and start.</p>
+                </div>
             </div>
 
             <div className=" group hover-gradient bg-gray-100 p-4 h-auto w-full sm:w-48 rounded-md flex items-start transform transition duration-300 hover:shadow-lg hover:scale-y-105 origin-top">
@@ -65,7 +65,7 @@ function Home(){
 
 
             <div className="flex justify-center mt-8 px-4">
-            <div className="flex flex-col items-center mr-28 mt-8 w-48 relative hover:bg-gray-200 hover:rounded-xl">
+            <div className="flex flex-col items-center mr-28 mt-8 w-48 relative hover:bg-gray-200 hover:rounded-xl hover:px-8 p-8">
             <div className="absolute  flex justify-center w-full -top-[24px]">
             <img className="h-11 w-11 " src="Number1.png" alt="number1" />
             </div>
@@ -136,8 +136,8 @@ function Home(){
             <div className=' relative mt-16'>
             <div className='text-left ml-32 relative'>
             <h2 className='text-xs'>About Us</h2>
-            <h1 className='text-2xl font-bold' style={{ fontSize: '2.4rem'}}>Grow Your Business<br/></h1>
-            <h1 className='text-2xl font-bold mt-2' style={{ fontSize: '2.4rem'}}> with Our <span className='text-red-800'>SEO Agency</span></h1>
+            <h1 className='mt-2 text-2xl font-bold leading-snug' style={{ fontSize: '2.4rem'}}>Grow Your Business<br/>with Our <span className='text-red-800'>SEO Agency</span></h1>
+           
             <p className='text-xs text-gray-700 pt-3' style={{ fontSize: '0.9rem'}}>Over 7 years UnitFactor helping Clients reach their financial <br/>
             and branding goals.</p>
             <p className='text-xs font-semibold' style={{ fontSize: '0.85rem'}}>We help ambitious businesses like yours generate more profits <br/>
