@@ -61,7 +61,7 @@ function Contacts(){
             </div>
 
 
-            <div className=" z-10 mt-16 h-28 rounded-lg w-[80%] mx-auto bg-cover bg-center relative" style={{ backgroundImage: 'url(./Rectangle3.png)' }}>
+            <div className=" z-10 mt-16 h-28 rounded-lg w-[66.66%] mx-auto bg-cover bg-center relative" style={{ backgroundImage: 'url(./Rectangle3.png)' }}>
               <div className="absolute inset-0 flex flex-col mt-6 items-center justify-center text-white">
               <p className="text-xl font-bold" style={{fontSize:'1.5rem'}}>Take Your Website to Next Level Right Now!</p>
               <button className="bg-white text-red-800 rounded-3xl h-8 w-20  text-xs  mt-3 font-bold">

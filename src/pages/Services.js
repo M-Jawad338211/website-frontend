@@ -46,7 +46,7 @@ function Services() {
     <div className="Services">
         <div className=' flex mt-20 pl-52'>
             <div className='text-left ml-32 mt-20 flex flex-col'>
-                <h2 className='text-xs'>We Get Results</h2>
+                <h2 className='text-xs mb-3'>We Get Results</h2>
                 <h1 className='text-2xl font-bold' style={{ fontSize: '2.2rem'}}><span className='text-red-800'>Social Media Marketing</span> &<br/></h1>
                 <h1 className='text-2xl font-bold mt-2' style={{ fontSize: '2.2rem'}}> Management Services </h1>
                 <p className='text-xs mt-4' style={{ fontSize: '0.8rem'}}>With a custom social media marketing service plan, your business can start<br/>
