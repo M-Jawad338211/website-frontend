@@ -46,12 +46,12 @@ export default function Dropdown({ label, items, handleSelect }) {
         onClose={handleClose}
         MenuListProps={{
           sx: {
-            width: anchorEl ? anchorEl.clientWidth : 'auto', // Ensures width matches the button
+            width: anchorEl ? anchorEl.clientWidth : 'auto', 
           },
         }}
         PaperProps={{
           style: {
-            width: anchorEl ? `${anchorEl.clientWidth}px` : 'auto', // Forces the menu to match the button width
+            width: anchorEl ? `${anchorEl.clientWidth}px` : 'auto', 
           },
         }}
       >
