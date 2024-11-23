@@ -114,7 +114,7 @@ function AvlabFooter() {
                 />
                 <button
                   type="submit"
-                  className="w-28 absolute right-2 top-1/2 transform -translate-y-1/2 bg-yellow-500 text-black py-2 px-6 rounded-sm hover:bg-yellow-500 "
+                  className="w-28 absolute right-2 top-1/2 transform -translate-y-1/2 bg-yellow-400 text-black py-2 px-6 rounded-sm hover:bg-yellow-500 "
                 >
                   Send
                 </button>
