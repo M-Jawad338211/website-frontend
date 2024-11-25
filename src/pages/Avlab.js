@@ -512,83 +512,83 @@ function Avlab() {
     </div>
   </div>
 </div>
- <div>
-      {/* Testimonials Section */}
-      <div className="bg-gray-100 h-[450px] py-10">
-        <div className="container mx-auto px-4">
-          {/* Section Title */}
-          <h2 className="text-4xl font-bold text-center text-blue-900 mb-12">
-            Testimonials
-          </h2>
+<div>
+  {/* Testimonials Section */}
+  <div className="bg-gray-100 py-10">
+    <div className="container mx-auto px-4">
+      {/* Section Title */}
+      <h2 className="text-4xl font-bold text-center text-blue-900 mb-12">
+        Testimonials
+      </h2>
 
-          {/* Testimonials Wrapper */}
-          <div className="relative flex items-center space-x-6">
-            {/* Left Arrow */}
-            <button
-              onClick={() =>
-                setCurrentIndex(
-                  (prevIndex) =>
-                    (prevIndex - 2 + testimonials.length) % testimonials.length
-                )
-              }
-              className="absolute left-0 text-blue-900 text-2xl bg-white rounded-full ml-10 shadow-md w-10 h-10 flex items-center justify-center hover:bg-gray-200 z-10"
-              aria-label="Previous"
-            >
-              &lt;
-            </button>
+      {/* Testimonials Wrapper */}
+      <div className="relative flex items-center space-x-6">
+        {/* Left Arrow */}
+        <button
+          onClick={() =>
+            setCurrentIndex(
+              (prevIndex) =>
+                (prevIndex - 2 + testimonials.length) % testimonials.length
+            )
+          }
+          className="absolute left-0 text-blue-900 text-2xl bg-white rounded-full ml-10 shadow-md w-10 h-10 flex items-center justify-center hover:bg-gray-200 z-10"
+          aria-label="Previous"
+        >
+          &lt;
+        </button>
 
-            {/* Testimonials Content */}
-            <div className="flex flex-wrap w-full justify-center space-x-6">
-              {[0, 1].map((offset) => {
-                const index = (currentIndex + offset) % testimonials.length;
-                const testimonial = testimonials[index];
-                
-                return (
-                    <div key={index} className="flex-shrink-0 w-full md:w-1/2 max-w-lg bg-white shadow-md rounded-lg p-6 relative flex flex-col h-36">
-                      {/* Testimonial Text */}
-                      <p className="text-gray-700 italic leading-relaxed mb-6">
-                        {testimonial.text}
-                      </p>
-                  
-                      {/* Arrow Shape Below the Testimonial */}
-                      <div className="absolute bottom-[-10px] left-10 w-4 h-4 bg-white rotate-45 shadow-md"></div>
-                  
-                      {/* Name, Company, and Image Below the Testimonial */}
-                      <div className="flex items-center justify-start mt-6">
-                        <img
-                          src={testimonial.image}
-                          alt={testimonial.name}
-                          className="w-12 h-12 rounded-full object-cover mr-4"
-                        />
-                        <div>
-                          <p className="font-bold text-gray-800">{testimonial.name}</p>
-                          <p className="text-sm text-gray-500">{testimonial.company}</p>
-                        </div>
-                      </div>
-                    </div>
-                  );
-                  
-               
-                    
-                  
-               
-              })}
-            </div>
+        {/* Testimonials Content */}
+        <div className="flex  w-full justify-center space-x-6">
+          {[0, 1].map((offset) => {
+            const index = (currentIndex + offset) % testimonials.length;
+            const testimonial = testimonials[index];
 
-            {/* Right Arrow */}
-            <button
-              onClick={() =>
-                setCurrentIndex((prevIndex) => (prevIndex + 2) % testimonials.length)
-              }
-              className="absolute right-0 text-blue-900 text-2xl bg-white mr-10 rounded-full shadow-md w-10 h-10 flex items-center justify-center hover:bg-gray-200 z-10"
-              aria-label="Next"
-            >
-              &gt;
-            </button>
-          </div>
+            return (
+              <div
+                key={index}
+                className="flex-shrink-0 w-full md:w-1/2 max-w-lg bg-white shadow-md rounded-lg p-6 relative flex flex-col h-auto"
+              >
+                {/* Testimonial Text */}
+                <p className="text-gray-700 italic leading-relaxed mb-6 h-auto">
+                  {testimonial.text}
+                </p>
+
+                {/* Arrow Shape Below the Testimonial */}
+                <div className="absolute bottom-[-10px] left-10 w-4 h-4 bg-white rotate-45 shadow-md"></div>
+
+                {/* Name, Company, and Image Below the Testimonial */}
+                <div className="flex items-center justify-start mt-6">
+                  <img
+                    src={testimonial.image}
+                    alt={testimonial.name}
+                    className="w-12 h-12 rounded-full object-cover mr-4"
+                  />
+                  <div>
+                    <p className="font-bold text-gray-800">{testimonial.name}</p>
+                    <p className="text-sm text-gray-500">{testimonial.company}</p>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
         </div>
+
+        {/* Right Arrow */}
+        <button
+          onClick={() =>
+            setCurrentIndex((prevIndex) => (prevIndex + 2) % testimonials.length)
+          }
+          className="absolute right-0 text-blue-900 text-2xl bg-white mr-10 rounded-full shadow-md w-10 h-10 flex items-center justify-center hover:bg-gray-200 z-10"
+          aria-label="Next"
+        >
+          &gt;
+        </button>
       </div>
     </div>
+  </div>
+</div>
+
+
 
 
    
