@@ -538,18 +538,19 @@ function Avlab() {
         </button>
 
         {/* Testimonials Content */}
-        <div className="flex  w-full justify-center space-x-6">
-          {[0, 1].map((offset) => {
+        <div className="flex flex-wrap w-full justify-center space-x-6">
+        {[0, 1].map((offset) => {
             const index = (currentIndex + offset) % testimonials.length;
             const testimonial = testimonials[index];
 
             return (
-              <div
+                <div
                 key={index}
-                className="flex-shrink-0 w-full md:w-1/2 max-w-lg bg-white shadow-md rounded-lg p-6 relative flex flex-col h-auto"
+                className="flex-shrink-0 w-full md:w-1/2 max-w-lg bg-white shadow-md rounded-lg p-6 relative flex flex-col "
+                style={{ minHeight: "180px" }} // Ensures all boxes have the same height
               >
                 {/* Testimonial Text */}
-                <p className="text-gray-700 italic leading-relaxed mb-6 h-auto">
+                <p className="text-gray-700 italic leading-relaxed mb-6 overflow-hidden">
                   {testimonial.text}
                 </p>
 
@@ -557,17 +558,20 @@ function Avlab() {
                 <div className="absolute bottom-[-10px] left-10 w-4 h-4 bg-white rotate-45 shadow-md"></div>
 
                 {/* Name, Company, and Image Below the Testimonial */}
-                <div className="flex items-center justify-start mt-6">
-                  <img
-                    src={testimonial.image}
-                    alt={testimonial.name}
-                    className="w-12 h-12 rounded-full object-cover mr-4"
-                  />
-                  <div>
-                    <p className="font-bold text-gray-800">{testimonial.name}</p>
-                    <p className="text-sm text-gray-500">{testimonial.company}</p>
-                  </div>
-                </div>
+                <div
+          className="flex items-center justify-center mt-4"
+          style={{ textAlign: "center" }}
+        >
+          <img
+            src={testimonial.image}
+            alt={testimonial.name}
+            className="w-12 h-12 rounded-full object-cover mr-4"
+          />
+          <div>
+            <p className="font-bold text-gray-800">{testimonial.name}</p>
+            <p className="text-sm text-gray-500">{testimonial.company}</p>
+          </div>
+        </div>
               </div>
             );
           })}
