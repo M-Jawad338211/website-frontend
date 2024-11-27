@@ -1,0 +1,72 @@
+/* animation stretch */
+.Animate-Stretch {
+    height: 200px !important;
+    width: 200px;
+    margin: 0 auto;
+    background-color: red;
+    animation-name: stretch;
+    animation-duration: 3.5s; 
+    animation-timing-function: ease-out; 
+    animation-direction: alternate;
+    animation-iteration-count: infinite; 
+    
+  }
+  
+  @keyframes stretch {
+    0% {
+      transform: scale(.3);
+      background-color: black;
+      border-radius: 100%;
+    }
+    50% {
+      background-color: orange;
+    }
+    100% {
+      transform: scale(1.5);
+      background-color: red;
+    }
+  }
+  
+  
+  /* animation stretch ends */
+
+
+  /* animation roller starts here */
+  .Animate-roller {
+    margin-left: 400px;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    animation: 
+      pulse 3s ease infinite alternate, 
+      nudge 5s linear infinite alternate;
+    border-radius: 100%;
+  }
+  
+  @keyframes pulse {
+    0% {
+      background-color: red;
+    }
+    50% {
+      background-color: orange;
+    }
+     100% {
+        background-color: black;
+      }
+  }
+  
+  @keyframes nudge {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    
+    50% {
+      transform: translate(150px, 0);
+    }
+    
+    80% {
+      transform: translate(-150px, 0);
+    }
+  }
+
+  /* animation roller ends */

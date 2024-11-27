@@ -22,39 +22,7 @@ function Home(){
             </div>
             </div>
 
-            {/* <div className="flex flex-wrap justify-center gap-4 px-4 md:px-0 mt-8">
-                <div className=" group hover-gradient bg-gray-100 p-4 h-auto w-full sm:w-48 rounded-md flex items-start transform transition duration-300 hover:shadow-lg hover:scale-y-105 origin-top">
-                <img className="h-8 mr-2" src="/Group37.png" alt="Group37" />
-                <div className="flex flex-col">
-                    <h1 className="text-sm font-extrabold group-hover:text-white" style={{ fontSize: '0.5rem' }}>Social Media Marketing</h1>
-                    <p className="text-xs font-bold mt-1 text-gray-600 group-hover:text-white" style={{ fontSize: '0.4rem' }}>Create and manage top-performing social campaigns and start.</p>
-                </div>
-            </div>
-
-            <div className=" group hover-gradient bg-gray-100 p-4 h-auto w-full sm:w-48 rounded-md flex items-start transform transition duration-300 hover:shadow-lg hover:scale-y-105 origin-top">
-            <img className="h-8 mr-2" src="/Group36.png" alt="Group36" />
-            <div className="flex flex-col">
-                <h1 className="text-sm font-extrabold group-hover:text-white" style={{ fontSize: '0.5rem' }}>App Development</h1>
-                <p className="text-xs font-bold text-gray-600 mt-1 group-hover:text-white" style={{ fontSize: '0.4rem' }}>Create, publish, and promote engaging content to generate more traffic.</p>
-            </div>
-            </div>
-
-            <div className=" group hover-gradient bg-gray-100 p-4 h-auto w-full sm:w-48 rounded-md flex items-start transform transition duration-300 hover:shadow-lg hover:scale-y-105 origin-top">
-            <img className="h-8 mr-2" src="/Group35.png" alt="Group35" />
-            <div className="flex flex-col">
-                <h1 className="text-sm font-extrabold group-hover:text-white" style={{ fontSize: '0.5rem' }}>SEO Optimization</h1>
-                <p className="text-xs font-bold text-gray-600 mt-1 group-hover:text-white" style={{ fontSize: '0.4rem' }}>Get more website traffic, more customers, and more online visibility.</p>
-            </div>
-            </div>
-
-            <div className=" group hover-gradient bg-gray-100 p-4 h-auto w-full sm:w-48 rounded-md flex items-start transform transition duration-300 hover:shadow-lg hover:scale-y-105 origin-top">
-            <img className="h-8 mr-2" src="/Group34.png" alt="Group34" />
-            <div className="flex flex-col">
-                <h1 className="text-sm  font-extrabold group-hover:text-white" style={{ fontSize: '0.5rem' }}>Content Marketing</h1>
-                <p className="text-xs font-bold text-gray-600 mt-1 group-hover:text-white" style={{ fontSize: '0.4rem' }}>You can provide the answers that your potential customers are trying.</p>
-            </div>
-            </div>
-            </div> */}
+          
             <div className="flex flex-wrap justify-center gap-4 px-4 md:px-0 mt-8">
             <div className="group hover-gradient bg-gray-100 p-5 h-auto w-full sm:w-56 rounded-lg flex items-start transform transition duration-300 hover:shadow-lg hover:scale-y-105 origin-top">
                 <img className="h-10 mr-2 " src="/Group37.png" alt="Group37" />
@@ -117,47 +85,7 @@ function Home(){
             </div>
 
 
-            {/* <div className="flex justify-center mt-8 px-4">
-            <div className="flex flex-col items-center mr-28 mt-8 w-48 relative hover:bg-gray-200 hover:rounded-xl hover:px-8 p-8">
-            <div className="absolute  flex justify-center w-full -top-[24px]">
-            <img className="h-11 w-11 " src="Number1.png" alt="number1" />
-            </div>
-            <div className="mt-6 flex flex-col p-5 items-center  pt-37 ">
-            <img className="h-24 w-24 mb-4" src="undraw1.png" alt="undraw1" />
-            <h2 className="font-bold text-center text-lg mb-2 min-w-max">Project Introduction</h2>
-            <p className="text-gray-600 text-sm text-center min-w-[12rem]" style={{fontSize: '0.7rem'}}>
-                We’re a team of non-cynics who truly<br/>
-                care for our work and for each other.
-            </p>
-            </div>
-            </div>
-            <div className="flex flex-col items-center mt-8 w-48 relative hover:bg-gray-200 hover:rounded-xl">
-            <div className="absolute -top-[24px] flex justify-center w-full ">
-            <img className="h-11 w-11" src="Number2.png" alt="number2" />
-            </div>
-            <div className="mt-6 flex flex-col p-5 items-center pt-37">
-            <img className="h-24 w-24 mb-4" src="undraw2.png" alt="undraw2" />
-            <h2 className="font-bold text-center text-lg mb-2 min-w-max">Research & Concept</h2>
-            <p className="text-gray-600 text-sm text-center min-w-[12rem]" style={{fontSize: '0.7rem'}}>
-                We’re a team of non-cynics who truly<br/>
-                care for our work and for each other.
-            </p>
-            </div>
-            </div>
-            <div className="flex flex-col items-center mt-8 w-48 relative ml-28 hover:bg-gray-200 hover:rounded-xl">
-            <div className="absolute -top-[24px] flex justify-center w-full">
-            <img className="h-11 w-11" src="Number3.png" alt="number3" />
-            </div>
-            <div className="mt-6 flex p-5 flex-col items-center pt-6">
-            <img className="h-24 w-24 mb-4" src="undraw3.png" alt="undraw3" />
-            <h2 className="font-bold min-w-max text-center text-lg mb-2">Project Termination</h2>
-            <p className="text-gray-600 text-sm text-center min-w-[12rem]" style={{fontSize: '0.7rem'}}>
-                We’re a team of non-cynics who truly<br/>
-                care for our work and for each other.
-            </p>
-            </div>
-            </div>
-            </div> */}
+           
             <div className="flex justify-center flex-wrap gap-20 mt-16 px-4">
   {/* Project Introduction Card */}
   <div className="group hover:bg-gray-200 hover:rounded-lg hover:shadow-lg p-6 h-auto w-full sm:w-56 flex flex-col items-center relative transform transition duration-300">

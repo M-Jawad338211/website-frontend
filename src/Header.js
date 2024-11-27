@@ -14,7 +14,7 @@ function Header() {
             <a href="/" className="text-black  hover:text-orange-800">Home</a>
           </li>
           <li>
-            <a href="/page" className="text-black  hover:text-orange-800">Page</a>
+          <Link to="/animations" className=" text-black hover:text-orange-800">Animations</Link>
           </li>
           <li>
            <Link to="/services" className=" text-black hover:text-orange-800">Services</Link>

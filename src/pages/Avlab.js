@@ -265,7 +265,11 @@ function Avlab() {
     </div>
 
     {/* Video Tabs */}
-    <div className="divide-y ">
+    <div className="divide-y" style={{
+        minHeight: "300px", // Ensures a consistent minimum height
+        maxHeight: "352px", // Optional: Set a max height to limit the box size
+        overflowY: "auto", // Allows scrolling if the content exceeds maxHeight
+      }} >
       {/* Tab 1 */}
       <div className="flex items-center hover:bg-slate-200 p-4 gap-3 cursor-pointer ">
         <img
@@ -316,6 +320,84 @@ function Avlab() {
         <div>
           <h4 className="text-sm font-medium ">
             PART 4: How to Submit Your Samples to Aviation Laboratories
+          </h4>
+        </div>
+      </div>
+       {/* Tab 5 */}
+       <div className="flex items-center p-4 gap-3 hover:bg-slate-200  cursor-pointer ">
+        <img
+          src="https://8b24a1.p3cdn1.secureserver.net/wp-content/uploads/2024/01/video5.jpg"
+          alt=" Why It's Important to Perform Oil Filter Analysis"
+          className="w-16 h-16 rounded object-cover"
+        />
+        <div>
+          <h4 className="text-sm font-medium ">
+             Why It's Important to Perform Oil Filter Analysis
+          </h4>
+        </div>
+      </div>
+       {/* Tab 6 */}
+       <div className="flex items-center p-4 gap-3 hover:bg-slate-200  cursor-pointer ">
+        <img
+          src="https://8b24a1.p3cdn1.secureserver.net/wp-content/uploads/2024/01/video6.jpg"
+          alt=" Understanding Aviation Laboratories' Oil Analysis Lab Report"
+          className="w-16 h-16 rounded object-cover"
+        />
+        <div>
+          <h4 className="text-sm font-medium ">
+             Understanding Aviation Laboratories' Oil Analysis Lab Report
+          </h4>
+        </div>
+      </div>
+       {/* Tab 7 */}
+       <div className="flex items-center p-4 gap-3 hover:bg-slate-200  cursor-pointer ">
+        <img
+          src="https://8b24a1.p3cdn1.secureserver.net/wp-content/uploads/2024/01/video7.jpg"
+          alt=" Aviation Laboratories Hydraulic Fluids"
+          className="w-16 h-16 rounded object-cover"
+        />
+        <div>
+          <h4 className="text-sm font-medium ">
+            Aviation Laboratories Hydraulic Fluids
+          </h4>
+        </div>
+      </div>
+       {/* Tab 8 */}
+       <div className="flex items-center p-4 gap-3 hover:bg-slate-200  cursor-pointer ">
+        <img
+          src="https://8b24a1.p3cdn1.secureserver.net/wp-content/uploads/2024/01/video8.jpg"
+          alt=" Aviation Laboratories Aviation Fuel"
+          className="w-16 h-16 rounded object-cover"
+        />
+        <div>
+          <h4 className="text-sm font-medium ">
+           Aviation Laboratories Aviation Fuel
+          </h4>
+        </div>
+      </div>
+       {/* Tab 9 */}
+       <div className="flex items-center p-4 gap-3 hover:bg-slate-200  cursor-pointer ">
+        <img
+          src="https://8b24a1.p3cdn1.secureserver.net/wp-content/uploads/2024/01/video8.jpg"
+          alt=" Aviation Laboraties TKS"
+          className="w-16 h-16 rounded object-cover"
+        />
+        <div>
+          <h4 className="text-sm font-medium ">
+             Aviation Laboraties TKS
+          </h4>
+        </div>
+      </div>
+      {/* Tab 10 */}
+      <div className="flex items-center p-4 gap-3 hover:bg-slate-200  cursor-pointer ">
+        <img
+          src="https://8b24a1.p3cdn1.secureserver.net/wp-content/uploads/2024/01/video8.jpg"
+          alt=" Aviation Laboratories"
+          className="w-16 h-16 rounded object-cover"
+        />
+        <div>
+          <h4 className="text-sm font-medium ">
+           Aviation Laboratories
           </h4>
         </div>
       </div>
@@ -598,29 +680,30 @@ function Avlab() {
     </div>
   </div>
 </div>
-<div className="container mx-auto px-4 py-12 bg-gray-100">
-      {/* Main Container */}
-      <div className="flex  items-center">
-        {/* Heading Section */}
-        <div className="flex flex-col items-center mb-6">
-          <h3 className="text-2xl font-semibold text-center">
-            Interested in getting to know more? We are a click away!
-          </h3>
-        </div>
+<div className="container mx-auto  py-6 h-36 bg-gray-100">
+  <div className="border-t mb-8 border-yellow-300 w-full"></div>
 
-        {/* Button Section */}
-        <div className="flex justify-end ">
-          <div className="flex flex-col items-center">
-            <a
-              href="https://avlab.com/contact-us/"
-              className="inline-block bg-blue-500 text-white text-sm px-6 py-3 rounded-md hover:bg-blue-600 transition-colors"
-            >
-              Contact Us
-            </a>
-          </div>
-        </div>
-      </div>
+  {/* Main Container */}
+  <div className="flex items-center justify-between">
+    {/* Heading Section */}
+    <div>
+      <h3 className=" text-blue-900 pl-8 text-3xl font-semibold">
+        Interested in getting to know more? We are a click away!
+      </h3>
     </div>
+
+    {/* Button Section */}
+    <div>
+      <a
+        href="https://avlab.com/contact-us/"
+        className="inline-block bg-blue-800 text-white text-sm mr-9 px-6 py-3 rounded-3xl hover:bg-blue-900 transition-colors"
+      >
+        Contact Us
+      </a>
+    </div>
+  </div>
+</div>
+
 
 
 
