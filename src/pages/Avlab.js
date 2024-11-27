@@ -514,7 +514,7 @@ function Avlab() {
 </div>
 <div>
   {/* Testimonials Section */}
-  <div className="bg-gray-100 py-10">
+  <div className="bg-white py-10">
     <div className="container mx-auto px-4">
       {/* Section Title */}
       <h2 className="text-4xl font-bold text-center text-blue-900 mb-12">
@@ -531,7 +531,7 @@ function Avlab() {
                 (prevIndex - 2 + testimonials.length) % testimonials.length
             )
           }
-          className="absolute left-0 text-blue-900 text-2xl bg-white rounded-full ml-10 shadow-md w-10 h-10 flex items-center justify-center hover:bg-gray-200 z-10"
+          className="absolute left-0 text-black text-3xl  font-semibold ml-16 mt-10  w-10 h-10 flex items-center justify-center  z-10"
           aria-label="Previous"
         >
           &lt;
@@ -544,36 +544,43 @@ function Avlab() {
             const testimonial = testimonials[index];
 
             return (
-                <div
-                key={index}
-                className="flex-shrink-0 w-full md:w-1/2 max-w-lg bg-white shadow-md rounded-lg p-6 relative flex flex-col "
-                style={{ minHeight: "180px" }} // Ensures all boxes have the same height
-              >
-                {/* Testimonial Text */}
-                <p className="text-gray-700 italic leading-relaxed mb-6 overflow-hidden">
-                  {testimonial.text}
-                </p>
-
-                {/* Arrow Shape Below the Testimonial */}
-                <div className="absolute bottom-[-10px] left-10 w-4 h-4 bg-white rotate-45 shadow-md"></div>
-
-                {/* Name, Company, and Image Below the Testimonial */}
-                <div
-          className="flex items-center justify-center mt-4"
-          style={{ textAlign: "center" }}
-        >
-          <img
-            src={testimonial.image}
-            alt={testimonial.name}
-            className="w-12 h-12 rounded-full object-cover mr-4"
-          />
-          <div>
-            <p className="font-bold text-gray-800">{testimonial.name}</p>
-            <p className="text-sm text-gray-500">{testimonial.company}</p>
-          </div>
-        </div>
-              </div>
-            );
+                <div key={index} className="testimonial-container flex flex-col items-start">
+                  {/* Testimonial Box */}
+                  <div
+                    className="flex-shrink-0 w-[600px] bg-gray-100 shadow-md rounded-lg p-6 relative flex flex-col "
+                    style={{
+                      height: "180px", // Set a fixed height for all testimonials
+                    }}
+                  >
+                    {/* Testimonial Text */}
+                    <p className="text-gray-700 italic leading-relaxed mb-6 overflow-hidden">
+                      {testimonial.text}
+                    </p>
+              
+                    {/* Arrow Shape Below the Testimonial */}
+                    <div className="absolute bottom-[-10px] left-10 w-4 h-4 bg-gray-100 rotate-45 shadow-md"></div>
+                  </div>
+              
+                  {/* Name, Company, and Image Below the Testimonial */}
+                  <div
+                    className="flex items-center justify-center mt-6 space-x-4 ml-6"
+                    style={{ textAlign: "center" }}
+                  >
+                    <img
+                      src={testimonial.image}
+                      alt={testimonial.name}
+                      className="w-12 h-12 rounded-full object-cover flex-shrink-0"
+                    />
+                    <div className="text-left">
+                      <p className="font-bold text-gray-800">{testimonial.name}</p>
+                      <p className="text-sm text-gray-500">{testimonial.company}</p>
+                    </div>
+                  </div>
+                </div>
+              );
+              
+              
+              
           })}
         </div>
 
@@ -582,7 +589,7 @@ function Avlab() {
           onClick={() =>
             setCurrentIndex((prevIndex) => (prevIndex + 2) % testimonials.length)
           }
-          className="absolute right-0 text-blue-900 text-2xl bg-white mr-10 rounded-full shadow-md w-10 h-10 flex items-center justify-center hover:bg-gray-200 z-10"
+          className="absolute right-0 text-black text-3xl font-bold mt-10  pr-12 flex items-center justify-center cursor-pointer z-10"
           aria-label="Next"
         >
           &gt;
@@ -591,6 +598,31 @@ function Avlab() {
     </div>
   </div>
 </div>
+<div className="container mx-auto px-4 py-12 bg-gray-100">
+      {/* Main Container */}
+      <div className="flex  items-center">
+        {/* Heading Section */}
+        <div className="flex flex-col items-center mb-6">
+          <h3 className="text-2xl font-semibold text-center">
+            Interested in getting to know more? We are a click away!
+          </h3>
+        </div>
+
+        {/* Button Section */}
+        <div className="flex justify-end ">
+          <div className="flex flex-col items-center">
+            <a
+              href="https://avlab.com/contact-us/"
+              className="inline-block bg-blue-500 text-white text-sm px-6 py-3 rounded-md hover:bg-blue-600 transition-colors"
+            >
+              Contact Us
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
 
 
 
