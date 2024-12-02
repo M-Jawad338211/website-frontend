@@ -211,66 +211,7 @@ function Home(){
                 </div>
 
 
-            {/* <div className=" mt-8  ml-32 mr-32 ">
-            <div className="flex justify-between gap-4 w-[80%] ml-32">
-            <div className="group hover-gradient bg-gray-100 p-4  flex-1 rounded-2xl flex justify-center transform   ">
-                <div className="flex flex-col items-center text-center ">
-                  <h1 className="text-sm font-bold  group-hover:text-white" >Standard</h1>
-                  <img className='mt-6 h-20 w-16' src="standard1.png" alt='standard1' />
-                  <h1 className="text-2xl mt-3 items-center font-bold group-hover:text-white"  >$69.99</h1>
-                  <p className="text-gray-500 mt-1 font-medium group-hover:text-white" style={{ fontSize: '0.6rem' }} >Monthly Package</p>
-                  <hr class="border-t-1 border-gray-400 w-72 mx-auto mt-4" />
-                  <p className="text-gray-500  group-hover:text-white" style={{ fontSize: '1.1rem' }} >1.Services</p>
-                  <p className="text-gray-500  group-hover:text-white" style={{ fontSize: '1.1rem' }} >2.Services</p>
-                  <p className="text-gray-500  group-hover:text-white" style={{ fontSize: '1.1rem' }} >3.Services</p>
-                  <p className="text-gray-500  group-hover:text-white" style={{ fontSize: '1.1rem' }} >4.Services</p>
-                  <p className="text-gray-500  group-hover:text-white" style={{ fontSize: '1.1rem' }} >5.Services</p>
-                </div>
-                <button className="absolute bottom-[-16px] bg-blue-950 text-white rounded-[50px] font-bold h-12 w-44 text-xs" style={{ fontSize: '1.2rem' }}>
-                Choose Plan
-                </button>
-            </div>
-
-            <div className="group hover-gradient bg-gray-100 p-4 h-96 flex-1 rounded-2xl flex justify-center transform    ">
-                <div className="flex flex-col items-center text-center">
-                <h1 className="text-sm font-bold group-hover:text-white" >Economy</h1>
-                <img className='mt-6 h-20 w-16' src="economy1.png" alt='economy1' />
-                <h1 className="text-2xl mt-3 items-center font-bold group-hover:text-white"  >$79.99</h1>
-                <p className="text-gray-500 font-medium mt-1 group-hover:text-white" style={{ fontSize: '0.6rem' }} >Monthly Package</p>
-                
-                <hr class="border-t-1 border-gray-400 w-72 mx-auto mt-4" />
-                <p className="text-gray-500 group-hover:text-white" style={{ fontSize: '1.1rem' }} >1.Services</p>
-                <p className="text-gray-500  group-hover:text-white" style={{ fontSize: '1.1rem' }} >2.Services</p>
-                <p className="text-gray-500  group-hover:text-white" style={{ fontSize: '1.1rem' }} >3.Services</p>
-                <p className="text-gray-500  group-hover:text-white" style={{ fontSize: '1.1rem' }} >4.Services</p>
-                <p className="text-gray-500  group-hover:text-white" style={{ fontSize: '1.1rem' }} >5.Services</p>
-                </div>
-                <button className="absolute bottom-[-16px] bg-blue-950 text-white rounded-[50px] font-bold h-12 w-44 text-xs" style={{ fontSize: '1.2rem' }}>
-                Choose Plan
-                </button>
-            </div>
-
-            <div className="group hover-gradient bg-gray-100 p-4 h-96 flex-1 rounded-2xl flex justify-center transform ">
-                <div className="flex flex-col items-center text-center">
-                <h1 className="text-sm items-center font-bold group-hover:text-white" >Executive</h1>
-                <img className='mt-6 h-20 w-16' src="economy2.png" alt='economy2' />
-                <h1 className="text-2xl mt-3 items-center font-bold group-hover:text-white"  >$89.99</h1>
-                <p className="text-gray-500 font-medium mt-1 group-hover:text-white" style={{ fontSize: '0.6rem' }} >Monthly Package</p>
-                <hr class="border-t-1 border-gray-400 w-72 mx-auto mt-4" />
-                <p className="text-gray-500  group-hover:text-white" style={{ fontSize: '1.1rem' }} >1.Services</p>
-                <p className="text-gray-500  group-hover:text-white" style={{ fontSize: '1.1rem' }} >2.Services</p>
-                <p className="text-gray-500  group-hover:text-white" style={{ fontSize: '1.1rem' }} >3.Services</p>
-                <p className="text-gray-500  group-hover:text-white" style={{ fontSize: '1.1rem' }} >4.Services</p>
-                <p className="text-gray-500  group-hover:text-white" style={{ fontSize: '1.1rem' }} >5.Services</p>
-                </div>
-            
-                <button className="absolute bottom-[-16px] bg-blue-950 text-white rounded-[50px] font-bold  h-12 w-44 text-xs" style={{ fontSize: '1.2rem' }}>
-                Choose Plan
-                </button>
-                
-            </div>
-            </div>
-            </div> */}
+           
             <div className="mt-8 mx-8 md:mx-32">
   <div className="flex flex-wrap justify-between gap-4 w-full">
     {/* Standard Plan */}
@@ -338,28 +279,7 @@ function Home(){
   </div>
 </div>
 
-            {/* <div className=" bg-cover bg-center h-64 w-[66.66%] mx-auto rounded-2xl  mt-28 flex flex-col items-center justify-center"
-            style={{ backgroundImage: `url('image35.png')` }} >
-            <div className='flex justify-start w-2/3 mr-24  '>
-            <div >
-                <h1 className='font-bold text-white w-24' style={{fontSize:'0.9rem' }}>Project Done</h1>
-                <h1 className=' text-3xl pl-2 font-extrabold mt-4 text-white' style={{fontSize: '2.4rem' }}>33+</h1>
-            </div>
-            <div className='ml-28' >
-                <h1 className='font-bold text-white w-24' style={{fontSize:'0.9rem' }}>Active Clients </h1>
-                <h1 className=' text-3xl  font-extrabold mt-4 text-white' style={{fontSize: '2.4rem' }}>200+</h1>
-            </div>
-            <div className='ml-28'>
-                <h1 className='font-bold text-white w-24' style={{fontSize:'0.9rem' }}>Glorious Years</h1>
-                <h1 className=' text-3xl pl-6 font-extrabold mt-4 text-white' style={{fontSize: '2.4rem' }}>8+</h1>
-            </div>
-            <div className='ml-28' >
-                <h1 className='font-bold text-white w-24' style={{fontSize:'0.9rem' }}>Team Advisor</h1>
-                <h1 className=' text-3xl pl-2 font-extrabold mt-4 text-white' style={{fontSize: '2.4rem' }}>25+</h1>
-            </div>
-            </div> 
-
-            </div> */}
+           
             <div className="bg-cover bg-center h-64 lg:w-2/3 mx-auto rounded-2xl mt-28 flex flex-col items-center justify-center"
     style={{ backgroundImage: `url('image35.png')` }} >
     <div className="flex flex-wrap justify-around sm:justify-between w-full sm:w-2/3 mx-auto">
@@ -431,7 +351,6 @@ function Home(){
 
             <div className=" z-10 mt-8 sm:mt-16 h-32 sm:h-28 w-[90%] sm:w-[66.6%] mx-auto rounded-lg bg-cover bg-center relative" style={{ backgroundImage: 'url(./Rectangle3.png)' }}>
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white px-4">
-            {/* Your text goes here */}
             <p className="text-lg sm:text-xl font-bold text-center" style={{fontSize:'1.5rem'}}>Take Your Website to Next Level Right Now!</p>
             <button className="bg-white text-red-800 rounded-3xl h-10 sm:h-8 w-28 sm:w-20 text-sm sm:text-xs mt-3 font-bold">
                 Start Now

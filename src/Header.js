@@ -60,11 +60,7 @@ function Header() {
               Portfolio
             </Link>
           </li>
-          <li>
-            <a href="/blog" className="block text-black hover:text-orange-800 py-2 px-4 md:py-0">
-              Blog
-            </a>
-          </li>
+          
           <li>
             <Link to="/contacts" className="block text-black hover:text-orange-800 py-2 px-4 md:py-0">
               Contacts
