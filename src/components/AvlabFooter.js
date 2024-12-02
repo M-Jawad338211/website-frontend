@@ -7,7 +7,10 @@ function AvlabFooter() {
         <div className="grid grid-cols-4 md:grid-cols-4 gap-8">
           {/* Company Description */}
           <div className="space-y-4">
-            <img src="your-logo.png" alt="AVLAB logo" className="w-32" />
+          <div>
+            <h1 className="text-5xl font-bold text-white">AVLAB</h1>
+            <p className="text-sm text-gray-300" style={{fontSize:"1rem"}}>Aviation Laboratories</p>
+          </div>
             <p className="text-lg " style={{fontSize: '1rem'}}>
               At Aviation Laboratories, we specialize in lab<br/> analysis, chemical
               and maintenance solutions<br/> specifically for the aviation industry.

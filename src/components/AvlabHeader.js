@@ -6,7 +6,7 @@ const AvlabHeader = () => {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo Section */}
         <div className="flex items-center">
-          <img src="/logo.png" alt="AVLAB Logo" className="h-10 mr-2" />
+          {/* <img src="/logo.png" alt="AVLAB Logo" className="h-10 mr-2" /> */}
           <div>
             <h1 className="text-5xl font-bold text-blue-900">AVLAB</h1>
             <p className="text-sm text-gray-500" style={{fontSize:"1rem"}}>Aviation Laboratories</p>
