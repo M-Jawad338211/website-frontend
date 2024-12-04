@@ -5,7 +5,7 @@ import ArrowCircleRightSharpIcon from '@mui/icons-material/ArrowCircleRightSharp
 
 function Home(){
     return(
-        <div className='Home'>
+        <div className='Home mt-20'>
             <div className="flex flex-col md:flex-row justify-evenly items-center px-4 md:px-0">
             <img src="Frame1.png" alt="frame1" className="h-48 w-auto md:h-[350px] pt-8 md:pt-24" />
             <div className="text-center md:text-left mt-4 md:mt-20">
@@ -357,8 +357,7 @@ function Home(){
             </button>
             </div>
 
-            
-
+        
             </div>
 
 

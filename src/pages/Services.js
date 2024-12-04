@@ -43,10 +43,10 @@ const BlackSwitch = styled(Switch)(({ theme }) => ({
 
 function Services() {
   return (
-    <div className="Services">
+    <div className="Services pt-20">
         <div className="flex flex-col lg:flex-row items-center mt-10 lg:mt-20 px-4 lg:px-52">
   <div className="text-left lg:ml-32 lg:mt-20 flex flex-col lg:w-1/2">
-    <h2 className="text-xs mb-3 lg:text-sm">We Get Results</h2>
+    <h2 className="text-xs ml-20 mb-3 lg:text-sm">We Get Results</h2>
     <h1 className="text-2xl font-bold lg:text-4xl text-center" style={{ fontSize: '2.2rem' }}>
       <span className="text-red-800">Social Media Marketing</span> &<br />
     </h1>
@@ -153,15 +153,16 @@ function Services() {
         <div className='flex flex-col justify-between items-center mt-16'>
             <h2 className=' font-semibold text-xs ' style={{ fontSize: '1rem' }}>Content Marketing </h2>
 
-            <h2 className='font-extrabold text-2xl text-center mt-1 leading-snug ' style={{ fontSize: '2.4rem' }}>
-            If You Can <span className='text-red-800'>Dream It,</span><br/>We Can  <span className='text-red-900'>Rank It</span>
+            <h2 className='font-extrabold text-lg sm:text-xl md:text-2xl lg:text-4xl text-center mt-1 leading-snug'>
+              If You Can <span className='text-red-800'>Dream It,</span><br />We Can <span className='text-red-900'>Rank It</span>
             </h2>
-          <div className="grid grid-cols-2 ustify-center gap-4 px-4  mt-8">
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 mt-6">
             <div className=" group bg-gray-200   p-4 h-[100px] w-[400px]  rounded-2xl flex items-start transform transition duration-300 hover:bg-custom-gradient hover:shadow-lg hover:scale-y-105 origin-top">
              <img className="h-10 mt-4 mr-2" src="/Group45.png" alt="Group45" />
             <div className="flex flex-col ml-5">
-                <h1 className="text-sm font-extrabold group-hover:text-white" style={{ fontSize: '0.7rem' }}>Real-time Keyword Data</h1>
-                <p className="text-sm font-normal mt-1 leading-tight group-hover:text-white" style={{ fontSize: '0.7rem' }}>The waiting game is over. Launching an<br/> 
+                <h1 className="font-bold text-lg md:text-sm lg:text-lg  group-hover:text-white" >Real-time Keyword Data</h1>
+                <p className="text-sm font-normal mt-1 leading-tight group-hover:text-white" >The waiting game is over. Launching an<br/> 
                   SEO campaign with Onum includes<br/>
                   access , a real-time reporting. </p>
             </div>
@@ -170,8 +171,8 @@ function Services() {
             <div className=" group  bg-gray-200 p-4 h-[100px] w-[400px] rounded-2xl flex items-start transform transition duration-300 hover:bg-custom-gradient hover:shadow-lg hover:scale-y-105 origin-top">
              <img className="h-10 mt-4 mr-2" src="/Group112.png" alt="Group112" />
             <div className="flex flex-col ml-5">
-                <h1 className="text-sm font-extrabold group-hover:text-white" style={{ fontSize: '0.7rem' }}>ROI Obsessed Keywords</h1>
-                <p className="text-sm font-normal  mt-1 group-hover:text-white leading-tight" style={{ fontSize: '0.7rem' }}>Never guess again is SEO is generating<br/>
+                <h1 className="font-bold text-lg md:text-sm lg:text-lg  group-hover:text-white" >ROI Obsessed Keywords</h1>
+                <p className="text-sm font-normal  mt-1 group-hover:text-white leading-tight" >Never guess again is SEO is generating<br/>
                   a net-positive return - your team and <br/>
                   your investors will love.</p>
             </div>
@@ -180,8 +181,8 @@ function Services() {
             <div className=" group  bg-gray-200 p-4 h-[100px] w-[400px]  rounded-2xl flex items-start transform transition duration-300 hover:bg-custom-gradient hover:shadow-lg hover:scale-y-105 origin-top">
              <img className="h-10 mt-4 mr-2" src="/Group111.png" alt="Group111" />
             <div className="flex flex-col ml-5">
-                <h1 className="text-sm font-extrabold group-hover:text-white" style={{ fontSize: '0.7rem' }}>Scalable Keyword Growth</h1>
-                <p className="text-sm font-normal mt-1 group-hover:text-white leading-tight" style={{ fontSize: '0.7rem' }}>Launching a startup with limited capital?<br/>
+                <h1 className="font-bold text-lg md:text-sm lg:text-lg  group-hover:text-white" >Scalable Keyword Growth</h1>
+                <p className="text-sm font-normal mt-1 group-hover:text-white leading-tight" >Launching a startup with limited capital?<br/>
                   No problem. Want to test our process <br/>
                   before ramping up.</p>
             </div>
@@ -190,8 +191,8 @@ function Services() {
             <div className=" group  bg-gray-200 p-4 h-[100px] w-[400px]  rounded-2xl flex items-start transform transition duration-300 hover:bg-custom-gradient hover:shadow-lg hover:scale-y-105 origin-top">
              <img className="h-10 mr-2 mt-4" src="/Group113.png" alt="Group113" />
             <div className="flex flex-col ml-5">
-                <h1 className="text-sm  font-extrabold group-hover:text-white" style={{ fontSize: '0.7rem' }}>Total Keyword Growth Visibility</h1>
-                <p className="text-sm font-normal mt-1 group-hover:text-white leading-tight" style={{ fontSize: '0.7rem' }}>We provide a revolutionary level of<br/>
+                <h1 className="font-bold text-lg md:text-sm lg:text-lg  group-hover:text-white">Total Keyword Growth Visibility</h1>
+                <p className="text-sm font-normal mt-1 group-hover:text-white leading-tight" >We provide a revolutionary level of<br/>
                   transparency into our campaigns - from <br/>
                   backlink acquisition.</p>
             </div>
@@ -199,74 +200,27 @@ function Services() {
           </div>
             
         </div>
-        <div className="flex flex-col justify-between items-center mt-8 md:mt-16 px-4">
-  {/* Heading Section */}
-  <h2 className="font-semibold text-sm md:text-base" style={{ fontSize: '1rem' }}>Content Marketing</h2>
-  
-  <h2 className="font-extrabold text-xl md:text-2xl text-center mt-2 leading-snug" style={{ fontSize: '1.8rem' }}>
-    If You Can <span className="text-red-800">Dream It,</span><br />We Can <span className="text-red-900">Rank It</span>
-  </h2>
+     
+            <div className='flex flex-col justify-between items-center mt-16 px-4 text-center'>
+              <p className='text-red-800 font-semibold text-base sm:text-lg md:text-xl'>
+                Choose Your Plan
+              </p>
 
-  {/* Cards Section */}
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 mt-6">
-    
-    {/* Card 1 */}
-    <div className="group bg-gray-200 p-4 rounded-2xl flex items-start transform transition duration-300 hover:bg-custom-gradient hover:shadow-lg hover:scale-105">
-      <img className="h-10 mr-2" src="/Group45.png" alt="Group45" />
-      <div className="flex flex-col ml-4">
-        <h1 className="text-xs md:text-sm font-extrabold group-hover:text-white" style={{ fontSize: '0.8rem' }}>Real-time Keyword Data</h1>
-        <p className="text-xs md:text-sm font-normal mt-1 group-hover:text-white leading-tight" style={{ fontSize: '0.75rem' }}>
-          The waiting game is over. Launching an SEO campaign with Onum includes access to real-time reporting.
-        </p>
-      </div>
-    </div>
-
-    {/* Card 2 */}
-    <div className="group bg-gray-200 p-4 rounded-2xl flex items-start transform transition duration-300 hover:bg-custom-gradient hover:shadow-lg hover:scale-105">
-      <img className="h-10 mr-2" src="/Group112.png" alt="Group112" />
-      <div className="flex flex-col ml-4">
-        <h1 className="text-xs md:text-sm font-extrabold group-hover:text-white" style={{ fontSize: '0.8rem' }}>ROI Obsessed Keywords</h1>
-        <p className="text-xs md:text-sm font-normal mt-1 group-hover:text-white leading-tight" style={{ fontSize: '0.75rem' }}>
-          Never guess again if SEO is generating a net-positive return - your team and investors will love it.
-        </p>
-      </div>
-    </div>
-
-    {/* Card 3 */}
-    <div className="group bg-gray-200 p-4 rounded-2xl flex items-start transform transition duration-300 hover:bg-custom-gradient hover:shadow-lg hover:scale-105">
-      <img className="h-10 mr-2" src="/Group111.png" alt="Group111" />
-      <div className="flex flex-col ml-4">
-        <h1 className="text-xs md:text-sm font-extrabold group-hover:text-white" style={{ fontSize: '0.8rem' }}>Scalable Keyword Growth</h1>
-        <p className="text-xs md:text-sm font-normal mt-1 group-hover:text-white leading-tight" style={{ fontSize: '0.75rem' }}>
-          Launching a startup with limited capital? No problem. Test our process before ramping up.
-        </p>
-      </div>
-    </div>
-
-    {/* Card 4 */}
-    <div className="group bg-gray-200 p-4 rounded-2xl flex items-start transform transition duration-300 hover:bg-custom-gradient hover:shadow-lg hover:scale-105">
-      <img className="h-10 mr-2" src="/Group113.png" alt="Group113" />
-      <div className="flex flex-col ml-4">
-        <h1 className="text-xs md:text-sm font-extrabold group-hover:text-white" style={{ fontSize: '0.8rem' }}>Total Keyword Growth Visibility</h1>
-        <p className="text-xs md:text-sm font-normal mt-1 group-hover:text-white leading-tight" style={{ fontSize: '0.75rem' }}>
-          We provide a revolutionary level of transparency into our campaigns, from backlink acquisition to results.
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-        <div className='flex flex-col justify-between items-center mt-16'>
-                <p className='text-red-800 font-semibold text-xs' style={{ fontSize: '1rem' }}>Choose Your Plan </p>
-
-                <p className='font-extrabold text-2xl mt-3 ' style={{ fontSize: '2.4rem' }}>
+              <p className='font-extrabold text-2xl sm:text-3xl md:text-4xl mt-3 leading-tight'>
                 Flexible <span className='text-red-900'>Pricing Plans</span>
-                </p>
-                <p className='text-sm mt-2 text-gray-400'>We have experience working with large and small businesses and are ready to </p>
-                <p className='text-sm  text-gray-400 '> develop a targeted strategy and plan that’s just right for you.</p>
+              </p>
+
+              <p className='text-sm sm:text-base md:text-lg mt-2 text-gray-400'>
+                We have experience working with large and small businesses and are ready to
+              </p>
+              
+              <p className='text-sm sm:text-base md:text-lg text-gray-400'>
+                develop a targeted strategy and plan that’s just right for you.
+              </p>
             </div>
-            <div className=" mt-8  ml-32 mr-32 ">
-            <div className="flex justify-between gap-4 w-[80%] ml-32">
+
+            <div className=" mt-8  md:px-32 ">
+            <div className=" justify-between mx-4 md:ml-32 md:w-[80%] grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="group hover-gradient bg-gray-100 p-4  flex-1 rounded-2xl flex justify-center transform   ">
                 <div className="flex flex-col items-center text-center ">
                   <h1 className="text-sm font-bold  group-hover:text-white" >Standard</h1>
@@ -304,7 +258,7 @@ function Services() {
                 </button>
             </div>
 
-            <div className="group hover-gradient bg-gray-100 p-4 h-96 flex-1 rounded- flex justify-center transform ">
+            <div className="group hover-gradient bg-gray-100 p-4 h-96 flex-1 rounded-2xl  flex justify-center transform ">
                 <div className="flex flex-col items-center text-center">
                 <h1 className="text-sm items-center font-bold group-hover:text-white" >Executive</h1>
                 <img className='mt-6 h-20 w-16' src="economy2.png" alt='economy2' />
@@ -325,6 +279,7 @@ function Services() {
             </div>
             </div>
             </div>
+        
 
             <div className=" z-10 mt-8 sm:mt-16 h-32 sm:h-28 w-[90%] sm:w-[66.6%] mx-auto rounded-lg bg-cover bg-center relative" style={{ backgroundImage: 'url(./Rectangle3.png)' }}>
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white px-4">
@@ -334,8 +289,7 @@ function Services() {
             </button>
             </div>
 
-            
-
+        
             </div>
 
             

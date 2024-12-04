@@ -233,67 +233,71 @@ function Portfolio() {
   };
 
   return (
-    <div className="Portfolio">
-      <div className="flex flex-col items-center mt-10 px-4">
-        <p className="text-sm font-normal mb-2">Our Projects</p>
-        <h1 className="text-2xl md:text-3xl font-extrabold text-center">
-          <span className="text-[#0F1C3F] leading-normal">View Some of Our Works</span>
-          <br />
-          <span className="text-[#9F3F3F]">
-            <span className="text-black">and</span> Case Studies{" "}
-            <span className="text-black">for</span> Clients
-          </span>
-        </h1>
+
+<div className="Portfolio mt-24 md:mt-32">
+  <div className="flex flex-col items-center mt-8 px-4">
+    <p className="text-xs sm:text-sm font-normal mb-2">Our Projects</p>
+    <h1 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-center leading-tight">
+      <span className="text-[#0F1C3F]">View Some of Our Works</span>
+      <br />
+      <span className="text-[#9F3F3F]">
+        <span className="text-black">and</span> Case Studies{" "}
+        <span className="text-black">for</span> Clients
+      </span>
+    </h1>
+  </div>
+
+  {/* Filter Dropdowns */}
+  <div className="flex flex-wrap gap-2 sm:gap-4 justify-center mt-8 md:mt-12">
+    <Button
+      variant="contained"
+      onClick={handleAllClick}
+      sx={{
+        backgroundColor: "#E8E8E8",
+        color: "#000000",
+        "&:hover": {
+          background: "linear-gradient(90deg, #0A3253 0%, #9F3F3F 100%)",
+          color: "#ffffff",
+        },
+      }}
+    >
+      ALL
+    </Button>
+
+    <Dropdown label="Product-Type" items={productTypes} handleSelect={handleSelect} />
+    <Dropdown label="Industries" items={industries} handleSelect={handleSelect} />
+    <Dropdown label="Marketing" items={marketing} handleSelect={handleSelect} />
+    <Dropdown label="CMS" items={cmsOptions} handleSelect={handleSelect} />
+    <Dropdown label="TechStack" items={techStack} handleSelect={handleSelect} />
+  </div>
+
+  {/* Display Filtered Projects */}
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-10 md:mt-16 px-4">
+    {filteredProjects.map((project) => (
+      <div key={project.id}>
+        <Link to={`/avlab/${project.id}`}>
+          <img
+            src={`./${project.image}`}
+            alt={project.type}
+            className="w-full h-40 sm:h-56 md:h-64 object-cover rounded-md transform transition-transform duration-300 hover:scale-105 hover:brightness-100"
+          />
+        </Link>
       </div>
+    ))}
+  </div>
 
-      {/* Filter Dropdowns */}
-      <div className="flex gap-4 justify-center mt-12">
-        <Button
-          variant="contained"
-          onClick={handleAllClick}
-          sx={{
-            backgroundColor: "#E8E8E8", // Primary color
-            color: "#000000", // Text color
-            "&:hover": {
-              background: "linear-gradient(90deg, #0A3253 0%, #9F3F3F 100%)",
-              color: "#ffffff",
-            },
-          }}
-        >
-          ALL
-        </Button>
-
-        <Dropdown label="Product-Type" items={productTypes} handleSelect={handleSelect} />
-        <Dropdown label="Industries" items={industries} handleSelect={handleSelect} />
-        <Dropdown label="Marketing" items={marketing} handleSelect={handleSelect} />
-        <Dropdown label="CMS" items={cmsOptions} handleSelect={handleSelect} />
-        <Dropdown label="TechStack" items={techStack} handleSelect={handleSelect} />
-      </div>
-
-      {/* Display Filtered Projects */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-16 px-4">
-        {filteredProjects.map((project) => (
-          <div key={project.id}>
-            <Link to={`/avlab/${project.id}`}>
-              <img
-                src={`./${project.image}`}
-                alt={project.type}
-                className="w-full h-64 object-cover rounded-md transform transition-transform duration-300 hover:scale-105 hover:brightness-100"
-              />
-            </Link>
-          </div>
-        ))}
-      </div>
-
-      <div className=" z-10 mt-8 sm:mt-16 h-32 sm:h-28 w-[90%] sm:w-[66.6%] mx-auto rounded-lg bg-cover bg-center relative" style={{ backgroundImage: 'url(./Rectangle3.png)' }}>
+  <div className=" z-10 mt-8 sm:mt-16 h-32 sm:h-28 w-[90%] sm:w-[66.6%] mx-auto rounded-lg bg-cover bg-center relative" style={{ backgroundImage: 'url(./Rectangle3.png)' }}>
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white px-4">
             <p className="text-lg sm:text-xl font-bold text-center" style={{fontSize:'1.5rem'}}>Take Your Website to Next Level Right Now!</p>
             <button className="bg-white text-red-800 rounded-3xl h-10 sm:h-8 w-28 sm:w-20 text-sm sm:text-xs mt-3 font-bold">
                 Start Now
             </button>
             </div>
+
+        
+            </div>
 </div>
-    </div>
+
   );
 }
 

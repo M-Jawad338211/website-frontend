@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Header() {
   return (
-    <nav className="bg-white shadow-md fixed h-20 w-full z-50">
+    <nav className="bg-white shadow-md fixed h-20 w-full z-50 top-0">
       <div className="container mx-auto px-4 flex items-center justify-between md:justify-center py-4">
         {/* Logo (Left aligned on large screens) */}
         <div className="md:absolute md:left-4">
