@@ -41,7 +41,7 @@ function AvlabFooter() {
               <div className="flex items-start space-x-2">
                 <i className="text-yellow-500 fas fa-map-marker-alt"></i>
                 <p className="hover:text-yellow-400 cursor-pointer text-base">
-                  5401 Mitchelldale, Suite B6<br /> Houston, TX 77092, United States
+                  5401 Mitchelldale, Suite B6<br /> Houston,TX 77092, United States
                 </p>
               </div>
               <p className="mt-4">
